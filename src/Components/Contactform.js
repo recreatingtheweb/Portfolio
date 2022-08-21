@@ -4,7 +4,7 @@ function Contactform(){
     return <div>
 
 <form name="contact" method="POST" data-netlify="true">
-<input type="hidden" name="form-name" value="contact" />
+<input type="hidden" name="contact" value="contact" />
       <div class="title">
         <h2>CONTACT</h2>
       </div>
