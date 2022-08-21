@@ -11,16 +11,16 @@ function Contactform(){
       <div class="half">
         <div class="item">
           <label for="name">NAME</label>
-          <input name="name" type="text" id = "name"/>
+          <input name="name" type="text" />
         </div>
         <div class="item">
           <label for="email">EMAIL</label>
-          <input name="email" type="text" id = "email"/>
+          <input name="email" type="text" />
         </div>
       </div>
       <div class="full">
         <label for="message">MESSAGE</label>
-        <textarea name="message" id = "message"></textarea>
+        <textarea name="message"></textarea>
       </div>
       <div class="action">
         <input type="submit" value = "SEND MESSAGE"/>
