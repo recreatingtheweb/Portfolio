@@ -3,7 +3,7 @@ import React from "react";
 function Contactform(){
     return <div>
 
-        <form action="" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true">
       <div class="title">
         <h2>CONTACT</h2>
       </div>
