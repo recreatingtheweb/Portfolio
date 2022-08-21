@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+body{
+  padding: 10px;
+  background-color: #121212;  
+}
+a{
+  margin-bottom: 10px;
+}
+
+h1{
+  color: white;
+  font-size: 25px;
+}
+
+
+h2{
+  color: white;
+}
+p{
+  text-align: center;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.about{
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 50px;
+}
+
+form{
+  background: rgba(27,31,34,0.80);
+  width: 640px;
+  margin: 20px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 15px 30px;
+}
+
+form .title h2{
+  letter-spacing: 6px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+form .half{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+}
+
+form .full textarea{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+form .action input[type="submit"]{
+  background: white;
+  color: black;
+}
+
+form .icons a{
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+}
+
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+  background: rgba(255,255,255,0.075);
+}
+
+input{
+  color: white;
+}
+
+
+label{
+  color: white;
+}
+
+textarea{
+  color: white;
+}
+#button-container{
+  margin-top: 10px;
+  text-align: center;  
+
+}
+
+.description{
+  font-size: 15px;
+  text-align: left;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.header{
+  margin-bottom: 1em;
+
+}
+.link{
+  color: black;
+}
+.intro-position{
+    text-align: center;
+}
+
+
+.stacks{
+  display: inline-block;
+}
+
+.typewriter-container{
+    margin-top: 40px;
+} 
+
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 805px;}
+}
+
+
+@keyframes animated-cursor{
+  from{border-right-color: rgba(0,255,0,.75);}
+  to{border-right-color: transparent;}
+}
+
+@media (max-width: 480px){
+  form .half{
+    flex-direction: column;
+  }
+  form .half .item{
+    width: 100%;
+  }
+  form .action{
+    display: flex;
+    flex-direction: column;
+  }
+  form .action input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+ 
+@media only screen and (max-width: 590px) {
+  h1 {
+    font-size: 30px;
+  }
+  p{
+    font-size: 25;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  h1 {
+    font-size: 25px;
+  }
+  p{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 368px) {
+  h1 {
+    font-size: 22px;
+  }
+  p{
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .stacks {
+    display: none;
+  }
+}
+
