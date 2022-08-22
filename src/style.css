@@ -237,4 +237,9 @@ textarea{
     display: none;
   }
 }
+@media only screen and (max-width: 482px) {
+  img {
+    width: 300px;
+  }
+}
 

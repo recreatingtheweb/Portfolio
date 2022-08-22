@@ -3,8 +3,7 @@ import React from "react";
 
 function About(){
     return <div>
-        <p className="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+        <p className="about">I am passionate about building web apps that create value for individuals and businesses. I strive to create responsive designs that provide a great  experience across all users and devices. </p>
 
     </div>
 }
