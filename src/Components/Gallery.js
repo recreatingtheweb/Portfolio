@@ -4,7 +4,7 @@ function Gallery(){
     return <div>
 
 <div class="container  ">
-  <div style={{marginLeft: "30px"}} class="row  ">
+  <div className="rows"  class="row  ">
     <div class="col">
     <img width = "400" height = "300" src="https://picsum.photos/id/1026/300" class="gallery-item" alt="gallery"/>
     <p className="description">This website uses a 3rd party website to retrieve JSON data that can be iterated through to display different background images.</p>
@@ -22,7 +22,7 @@ function Gallery(){
 
   </div>
 
-  <div style={{marginLeft: "30px"}} class="row">
+  <div className="rows" class="row">
   <div class="col">
     <img width = "400" height = "300" src="chatter.png" class="gallery-item" alt="gallery"/>
     <p className="description">This site uses google firebase authentication and databases. User can login to their gmail account to be entered into a real time chat room. </p>

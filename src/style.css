@@ -168,7 +168,9 @@ textarea{
 .intro-position{
     text-align: center;
 }
-
+.rows{
+  margin-left: 30px;
+}
 
 .stacks{
   display: inline-block;
@@ -240,6 +242,11 @@ textarea{
 @media only screen and (max-width: 482px) {
   img {
     width: 300px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .rows {
+    margin-left: 0px;
   }
 }
 
