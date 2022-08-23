@@ -14,7 +14,7 @@ function Gallery(){
 
     <div class="col">
     <img width = "400" height = "300" src="https://picsum.photos/id/1037/300" class="gallery-item" alt="gallery"/>
-    <p className="description">This a mock site for a photogropaher to display their work.</p>
+    <p className="description">This a mock site for a photogropaher to display their previous work and provide a point of contact.</p>
     <a style={{marginRight: "10px"}}  href="https://sweet-biscuit-9f34e7.netlify.app/" class="btn btn-primary">View Site</a>
     <a  href="https://github.com/recreatingtheweb/Artshow" class="btn btn-primary">View Code</a>
     </div>
