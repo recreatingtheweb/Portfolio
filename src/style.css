@@ -2,8 +2,8 @@
 
 body{
   padding: 10px;
-  background-color: #121212;  
-}
+  /* background-color: #121212;   */
+  background-image: radial-gradient(circle at center center, rgb(71, 71, 71),rgb(8, 8, 8));}
 a{
   margin-bottom: 10px;
 }

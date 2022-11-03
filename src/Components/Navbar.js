@@ -25,7 +25,10 @@ function Navbar(){
           <a  className="link"class="nav-link active" href="https://github.com/recreatingtheweb">Github <i class="fa-brands fa-github"></i></a>
           </li>
           <li class="nav-item">
-          <a className="link" class="nav-link active" href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:c38fd4e0-a2e7-4944-bebb-19533a6b4675">Resume <i class="fa-solid fa-file"></i></a>
+          <a className="link" class="nav-link active" href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:097c1f4d-eafc-4299-8537-a61cd6f9e4f5">Resume <i class="fa-solid fa-file"></i></a>
+          </li>
+          <li class="nav-item">
+          {/* <a className="link" class="nav-link active" href="https://newgendevs.herokuapp.com/">Blog <i class="fa-solid fa-blog"></i></a> */}
           </li>
       
         </ul>

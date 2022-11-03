@@ -27,7 +27,7 @@ function Gallery(){
     <img width = "400" height = "300" src="chatter.png" class="gallery-item" alt="gallery"/>
     <p className="description">This site uses google firebase authentication and databases. User can login to their gmail account to be entered into a real time chat room. </p>
     <a style={{marginRight: "10px"}}  href="https://gilded-cendol-caee02.netlify.app/" class="btn btn-primary">View Site</a>
-    {/* <a  href="https://github.com/recreatingtheweb/chatbox" class="btn btn-primary">View Code</a> */}
+    <a  href="javascript:void(0)" class="btn btn-primary">Private Code N/A</a>
     </div>
 
     
@@ -37,6 +37,22 @@ function Gallery(){
     <a style={{marginRight: "10px"}}  href="https://gregarious-liger-03b289.netlify.app/" class="btn btn-primary">View Site</a>
     <a  href="https://github.com/recreatingtheweb/jordan-portfolio" class="btn btn-primary">View Code</a>
     </div>
+
+    <div class="col">
+    <img width = "400" height = "300" src="budget.png" class="gallery-item" alt="gallery"/>
+    <p className="description">This web application is used to calculate a customizable expense budget. <br></br> This is built using React.js and utilizies hooks including useSate & useReducer. </p>
+    <a style={{marginRight: "10px"}}  href="https://my-budgeting-app.netlify.app/" class="btn btn-primary">View Site</a>
+    <a  href="https://github.com/recreatingtheweb/budget-tracker" class="btn btn-primary">View Code</a>
+    </div>
+
+    {/* <div class="col">
+    <img width = "400" height = "300" src="jordan.jpeg" class="gallery-item" alt="gallery"/>
+    <p className="description">Modeling portfolio developed for a model to display his photoshoots. This utilizes form submissions that are handled by netlify to deliver contact emails.  </p>
+    <a style={{marginRight: "10px"}}  href="https://gregarious-liger-03b289.netlify.app/" class="btn btn-primary">View Site</a>
+    <a  href="https://github.com/recreatingtheweb/jordan-portfolio" class="btn btn-primary">View Code</a>
+    </div> */}
+
+    
   </div>
   
  
