@@ -17,6 +17,10 @@ h1{
 h2{
   color: white;
 }
+img {
+  border-radius: 100%;
+  border: 5px solid #555;
+}
 p{
   text-align: center;
     color: white;
